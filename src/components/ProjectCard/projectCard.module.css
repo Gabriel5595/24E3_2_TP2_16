@@ -1,0 +1,51 @@
+.projectCardContainer {
+    display: flex;
+    padding: 5px;
+    margin: 30px;
+    border: 2px solid black;
+}
+
+.projectCardTexts {
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.projectCardTitle {
+    padding: 10px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.projectCardDescription {
+    padding: 10px;
+    margin: 5px;
+    text-align: justify;
+}
+
+.projectCardImg {
+    height: clamp(30vw, 4vw, 5vw);
+}
+
+.projectCardLink {
+    padding: 10px;
+    margin: 5px;
+}
+
+@media screen and (max-width: 550px) {
+    .projectCardContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projectCardImg {
+        width: 80vw;
+        height: auto;
+    }
+
+    .projectCardTexts {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+}

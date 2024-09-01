@@ -1,0 +1,9 @@
+.projectsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+    background-color: #618CC7;
+}

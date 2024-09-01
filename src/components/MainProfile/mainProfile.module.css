@@ -1,0 +1,28 @@
+.mainProfileContainer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0E305F;
+}
+
+.mainProfileTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainProfileImg {
+    height: clamp(20vw, 4vw, 10vw);
+    padding: 20px;
+}
+
+@media screen and (max-width: 550px)
+{
+    .mainProfileTextContainer h1 {
+        font-size: 18px;
+    }
+
+    .mainProfileTextContainer h2 {
+        font-size: 16px;
+    }
+}

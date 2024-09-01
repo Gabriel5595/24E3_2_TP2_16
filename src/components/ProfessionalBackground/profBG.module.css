@@ -1,0 +1,8 @@
+.backgroundContainer {
+    padding: 15px;
+    margin: 15px;
+    background-color: #618CC7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,27 @@
+.ProfBGCardContainer {
+    display: flex;
+    padding: 5px;
+    margin-top: 10px
+}
+
+.ProfBGCardSubContainer {
+    display: flex;
+}
+
+.ProfBGCardMinorInfo p {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(80, 76, 76);
+    font-size: 12px;
+}
+
+.ProfBGCardDescription{
+    margin: 5px;
+    text-align: justify;
+}
+
+.ProfBGCardImg{
+    margin-left: 5px;
+    margin-right: 5px;
+    max-width: 70px;
+}

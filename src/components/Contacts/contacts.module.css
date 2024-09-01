@@ -1,0 +1,30 @@
+.contactsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+    background-color: #618CC7;
+}
+
+.contactsCards {
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 800px) {
+    .contactsCards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .contactsCards{
+        display: flex;
+        flex-direction: column;
+    }
+}

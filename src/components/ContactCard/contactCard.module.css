@@ -1,0 +1,11 @@
+.contactCardContainer {
+    display: flex;
+}
+
+.contactCardContainer i {
+    padding: 5px;
+}
+
+.contactCardContainer a {
+    color: black;
+}
